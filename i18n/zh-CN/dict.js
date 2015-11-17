@@ -1,11 +1,13 @@
 module.exports = {
     experience_type: {
-        "internship": "（实习）"
+        "internship": "（实习）",
+        "fulltime": "（全职）"
     },
     skill_type: {
         "frontend": "Web 前端",
         "backend": "Web 后端",
-        "miscellaneous": "其他"
+        "miscellaneous": "其他",
+        "finance": "财务"
     },
     education_type: {
         "undergraduate": "（本科）"
@@ -37,9 +39,11 @@ module.exports = {
     lt_ie8_comment: "你正在使用 IE8 或更老的古董浏览器，还是快升级或者换浏览器吧~",
     dict: {
         source_code: "源代码",
-        demo: "Demo"
+        demo: "Demo",
+        app: "App"
     },
     project_type: {
-        "personal": "个人项目"
+        "personal": "个人项目",
+        "company": "公司项目"
     }
 };
